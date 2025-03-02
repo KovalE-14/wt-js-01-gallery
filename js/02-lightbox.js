@@ -1,5 +1,4 @@
 import { galleryItems } from './gallery-items.js';
-
 // це gallery DOM element
 const galleryContainer = document.querySelector(".gallery");
 
@@ -18,7 +17,8 @@ function createElementMarkup(markup) {
         />
     </a>
 </li>
-`;
+`
+;
 }).join("")}
 
 galleryContainer.insertAdjacentHTML("beforeend",
@@ -31,4 +31,5 @@ galleryContainer.insertAdjacentHTML("beforeend",
     }
 );
  
+
 console.log(galleryItems);
